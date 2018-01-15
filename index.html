@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <!-- Stuff that is not shown, but is a vital part to the website -->
+    <head>
+        <!-- The title is what you seen in the tab -->
+        <title>BBB | Home Page</title>
+        <!-- UTF-8 makes sure that you can use almost any symbol or character in the world -->
+        <meta charset="UTF-8">
+        <!-- Shows credit to me, Tiger -->
+        <meta name="author" content="Tigahz">
+        <!-- Allows responsive website, so people on their phones don't have to zoom in like mad -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- CSS Stylesheet - contains important information to the website. If removed, website will look utter shit -->
+        <link rel=stylesheet href="css/styles.css">
+        <!-- Icon in the tab -->
+        <link rel="icon" href="./images/icon.jpg">
+        <!-- Font of the website imported -->
+        <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    </head>
+    <!-- Start of what you see in the website -->
+    <body>
+        <!-- The header is a tag to show the top of the page i.e. the navbar -->
+        <header>
+            <!-- Navbar (navigation bar) starts here -->
+            <nav id="navbar">
+                <!-- Starts an unordered (bullet point) list -->
+                <ul>
+                    <!-- Link to the top of the page (home) -->
+                    <li><a href="#">Home</a></li>
+                    <!-- Link to the about section of the page -->
+                    <li><a href="#about.html">About Us</a></li>
+                    <!-- Link to the dynmap section of the page -->
+                    <li><a href="#dynmap.html">Dynmap</a></li>
+                    <!-- Link to the texture pack section of the page -->
+                    <li><a href="#pack.html">Texture Pack</a></li>
+                    <!-- Link to the apply section of the page -->
+                    <li><a href="#apply.html">Apply</a></li>
+                    <!-- Link to the donate section of the page -->
+                    <li><a href="#donate.html">Donate</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="home" class="bg1">
+            <h1>BlockByBlock</h1>
+            <h3><ul><li>Minecraft Building Server</li></ul></h3>
+        </section>
+        <section id="donate" class="bg0">
+            <div>
+                <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=nylelewis1999@gmail.com" method="post" target="_top" style="margin-left: 42%" class="donate-form">
+                    <input type="image" src="./images/paypal-donate.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+                </form>
+            </div>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,85 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Bree Serif', serif;
+}
+
+/* Navbar */
+#navbar {
+    background-color: black;
+    color: white;
+    font-size: 23px;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    left: 0;
+    position: absolute;
+}
+
+#navbar ul li {
+    float: left;
+    text-align: center;
+    background-color: black;
+    padding-left: 27px;
+    padding-right: 27px;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    display: inline;
+}
+
+#navbar ul li a {
+    text-decoration-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar ul li a:hover {
+    border-bottom: 3px solid #A9A9A9;
+    color: #A9A9A9;
+}
+
+/* Backgrounds */
+.bg0 {
+    background-color: #FFFFFF;
+}
+
+.bg1 {
+    background: url('../images/background1.png') repeat fixed 100%;
+}
+
+.bg2 {
+    background: url('../images/background2.png') repeat fixed 100%;
+}
+
+.bg3 {
+    background: url('../images/background3.png') repeat fixed 100%;
+}
+
+/* Home */
+#home {
+    height: 100%;
+}
+
+#home h1, h3 {
+    color: white;
+}
+
+#home h1 {
+    font-size: 50px;
+    padding-top: 20%;
+    padding-left: 70%;
+    padding-right: 150px;
+}
+
+#home h3 {
+    padding-bottom: 30%;
+    padding-left: 72%;
+    padding-right: 185px;
+    font-size: 35px;
+}
